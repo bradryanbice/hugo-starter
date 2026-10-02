@@ -1,0 +1,16 @@
+# Netlify. HUGO_VERSION must match mise.toml.
+
+[build]
+  publish = "public"
+  command = """
+    git config --global core.quotepath false && \
+    hugo build --gc --minify --baseURL "${DEPLOY_PRIME_URL}/"
+  """
+
+[build.environment]
+  HUGO_VERSION = "0.166.0"
+  GO_VERSION = "1.27.1"
+  # Netlify keeps this between builds, so processed images are not regenerated
+  # on every deploy.
+  HUGO_CACHEDIR = "/opt/build/cache/hugo_cache/"
+  TZ = "UTC"

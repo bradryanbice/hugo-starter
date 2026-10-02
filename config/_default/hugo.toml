@@ -1,0 +1,9 @@
+# Change these four. Everything else in this file can stay.
+baseURL = "https://example.com/"
+title = "A new site"
+locale = "en-US"
+copyright = "Example."
+
+# Root keys cannot come from a module, so every site sets these itself.
+enableRobotsTXT = true
+disableHugoGeneratorInject = true

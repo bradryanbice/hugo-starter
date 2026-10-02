@@ -1,0 +1,9 @@
+{{- /* This site's icons. hugo-base emits an empty icon link by default, which
+stops the browser requesting a favicon that does not exist. Replace the file in
+static/ with a real mark, and add the other sizes when you have them.
+
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.webmanifest">
+*/ -}}
+<link rel="icon" href="{{ "icon.svg" | relURL }}" type="image/svg+xml">

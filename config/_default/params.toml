@@ -1,0 +1,21 @@
+# Write a real description: it is the fallback meta description and what link
+# previews quote.
+description = "A new site built on hugo-base."
+
+# [social]
+#   twitter = "handle"
+
+[base]
+  # titleSeparator = "|"
+  # themeColor = "..."
+
+[base.schema]
+  # Publisher and author for structured data. hugo-base ships no defaults,
+  # because an invented organisation name would be worse than an absent field.
+  type = "Organization"
+  name = "A new site"
+
+[base.images]
+  # Images sit inside the reading column by default. Widen this if a layout
+  # puts them full bleed.
+  sizes = "(min-width: 48rem) 42rem, calc(100vw - 2rem)"

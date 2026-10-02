@@ -1,0 +1,28 @@
+/* The only file you need to edit to brand this site.
+ *
+ * Every value here is an input. hugo-base derives the colour ramps, the hover
+ * and active states, dark mode and elevation from them, so setting a hue is
+ * usually all a new site needs.
+ *
+ * Contrast becomes this site's responsibility once you change a colour. CI
+ * checks every semantic pair in both light and dark mode, so a brand that
+ * fails contrast fails the build rather than shipping.
+ */
+
+:root {
+  /* Accent: links, buttons, the focus ring. */
+  --accent-hue: 250;        /* OKLCH hue, 0 to 360 */
+  --accent-chroma: 0.13;    /* 0 is grey, 0.12 to 0.2 is a saturated brand */
+
+  /* Surfaces and text. A little chroma tints the greys toward the brand. */
+  --neutral-hue: var(--accent-hue);
+  --neutral-chroma: 0.006;
+
+  /* Type. Self hosting a font and setting font-display belong to this site. */
+  /* --font-body: "Your Font", system-ui, sans-serif; */
+  /* --font-heading: var(--font-body); */
+
+  /* Shape and depth: 0 is square and flat, 1 is default, 2 is softer. */
+  --radius-scale: 1;
+  --shadow-strength: 1;
+}

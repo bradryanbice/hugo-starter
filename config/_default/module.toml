@@ -1,0 +1,9 @@
+# The shared foundation. Bump it with:
+#   hugo mod get -u github.com/bradryanbice/hugo-base && hugo mod tidy
+# then ./hugo-base.sh sync
+#
+# Never run go mod tidy in a Hugo site: there is no Go code, so it would drop
+# this requirement.
+
+[[imports]]
+  path = "github.com/bradryanbice/hugo-base"

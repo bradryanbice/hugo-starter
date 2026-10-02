@@ -1,0 +1,4 @@
+# Inherit hugo-base's markup defaults: class based syntax highlighting, heading
+# anchors, and typographer settings that leave "--" alone. Module config does
+# not merge into a site without this line.
+_merge = "deep"

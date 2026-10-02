@@ -1,0 +1,8 @@
+# The local toolchain. These versions must match netlify.toml, and CI fails if
+# they drift. Renovate bumps them together in one pull request.
+
+[tools]
+"aqua:gohugoio/hugo/hugo-extended" = "0.166.0"
+go = "1.27.1"
+# CI tooling only (the accessibility and CSS checks). Never part of the build.
+node = "24.21.0"

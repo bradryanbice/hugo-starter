@@ -1,0 +1,2 @@
+# Inherit hugo-base's imaging defaults (sharper downscaling, per format quality).
+_merge = "deep"

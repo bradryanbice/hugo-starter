@@ -1,0 +1,7 @@
+# Navigation is content, so it lives here rather than in the base. Remove this
+# file and the site renders no nav at all.
+
+[[main]]
+  name = "About"
+  pageRef = "/about"
+  weight = 10
