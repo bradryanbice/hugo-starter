@@ -24,4 +24,4 @@ permissions:
 jobs:
   site:
     name: Site
-    uses: bradryanbice/hugo-base/.github/workflows/site-ci.yml@v0.1.2
+    uses: bradryanbice/hugo-base/.github/workflows/site-ci.yml@v0.2.0
